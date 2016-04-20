@@ -1,0 +1,23 @@
+#Simple bio Data App
+
+print ("                  ------------------------------------------")
+print ("                             Personal Information           ")
+print ("                  ------------------------------------------")
+fullname = raw_input("                  Fullname: ")
+add = raw_input("                  Address: ")
+age = raw_input("                  Age: ")
+mobile = raw_input("                  Mobile#: ")
+hobby = raw_input("                  Hobby: ")
+print ("                  ------------------------------------------")
+print ("                                    School                  ")
+print ("                  ------------------------------------------")
+school = raw_input("                  School Name: ")
+year = raw_input("                  Year: ")
+course = raw_input("                  Course: ")
+
+print ("                  ------------------------------------------")
+print ("                                Output Message              ")
+print ("                  ------------------------------------------")
+print "                         Hi!! Hello!! My name is %s!!!" % (fullname)
+print "                     I live in %s and I am %s years old!! \n                    You can call me on my phone number: %s. \n                     I like to %s, maybe we can be friends!" % (add,age,mobile,hobby)
+print "     I study in %s taking a course %s and I am currently on my %s year!" % (school,course,year)
